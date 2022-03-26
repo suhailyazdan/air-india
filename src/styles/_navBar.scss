@@ -1,0 +1,63 @@
+// Main Navbar
+.customNav {
+  padding: 0;
+
+  .logo{
+    width: 250px;
+    display: block;
+    
+    img{
+      width: 200px;
+    }
+  }
+
+  .container{
+    border-radius: 0 0 20px 20px;
+    border: 1px solid $primary;
+    border-top: none;
+  }
+  .navbar-nav {
+    width: 100%;
+    .nav-link {
+      width: 100%;
+      color: $primary;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 0;
+      text-align: center;
+      padding: 0.5em 0;
+      position: relative;
+      margin: 8px 5px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #fff;
+
+
+      &:hover {
+        border-radius: 5px;
+        color: $secondary;
+        border: 1px solid $secondary;
+      }
+
+      &.active {
+        border-radius: 5px;
+        color: $secondary;
+        border: 1px solid $secondary;
+      }
+    }
+  }
+}
+
+//LoginBar
+.loginBar {
+
+  & .btn-primary{
+    border: none;
+  }
+  
+  & .btn-primary:hover{
+    background-color: $secondary;
+    border: none;
+  }
+}

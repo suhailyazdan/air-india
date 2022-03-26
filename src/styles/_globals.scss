@@ -1,0 +1,43 @@
+.banner{
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.gradientBg {
+  background: linear-gradient(204deg,#ed7306,#df1737);
+  background-size: 120% 120%;
+  animation: gradient-animation 2s ease infinite;
+  color: #000;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bookingBox{
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid $primary;
+
+  .bookingInfo{
+    background-color: #dee2e6;
+    border-radius: 15px;
+
+    & .btn-primary{
+      border: none;
+    }
+    
+    & .btn-primary:hover{
+      background-color: $secondary;
+      border: none;
+    }
+  }
+}
