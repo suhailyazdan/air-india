@@ -59,13 +59,13 @@ const MainNavBar = () => {
               <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='me-auto'>
                   <Nav.Link href="/" active>Home</Nav.Link>
-                  <Nav.Link href="/about">Manage Your Trip</Nav.Link>
-                  <Nav.Link href="/completed-projects">Special Offers</Nav.Link>
-                  <Nav.Link href="/ongoing-projects">Travel Information</Nav.Link>
-                  <Nav.Link href="/contact-us">Flying Returns</Nav.Link>
-                  <Nav.Link href="/contact-us">Baggage</Nav.Link>
-                  <Nav.Link href="/contact-us">Flying Returns</Nav.Link>
-                  <Nav.Link href="/contact-us">Flying Returns</Nav.Link>
+                  <Nav.Link href="/manage-trip">Manage Your Trip</Nav.Link>
+                  <Nav.Link href="/special-offers">Special Offers</Nav.Link>
+                  <Nav.Link href="/travel-info">Travel Information</Nav.Link>
+                  <Nav.Link href="/flying-return">Flying Returns</Nav.Link>
+                  <Nav.Link href="/baggage">Baggage</Nav.Link>
+                  <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+                  <Nav.Link href="/gst">GST</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </div>

@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+$font-family-sans-serif: 'Josefin Sans', sans-serif;
+$font-family-serif:      'Josefin Sans', sans-serif;
+$font-family-monospace:  'Josefin Sans', sans-serif;
+$font-family-base:       'Josefin Sans', sans-serif;
+// $font-size-base: 1.3rem;
+
 
 $primary: #df1737;
 $secondary: #ed7306;
+$tertiary: #ebebeb;
 
 $border-radius-lg: 0.5rem;
 $border-radius: 0.5rem;
 
 
-
-
-
 @import "globals";
 @import "~bootstrap/scss/bootstrap";
 @import "navBar";
+@import "slider";
+@import "info-section";
+@import "general";
